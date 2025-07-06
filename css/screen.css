@@ -514,6 +514,26 @@ nav {
         background-position: left top
     }
 
+    header a.logo {
+        width: 100%;
+        height: 66px;
+        left: 0px;
+        top : 0px;
+        background-color: rgbd(0, 0, 0, 0.65);
+        background-size: 112px 46px;
+        background-position: 20px center;
+    }
+
+    header div.hero {
+        width: 300px;
+        top: 85px;
+        left: 130px;
+    }
+
+    header div.hero h1 {
+        margin-bottom: 10px;
+    }
+
     /* Navigation */
     nav {
         position : static;
