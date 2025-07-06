@@ -691,4 +691,19 @@ nav {
     header div.hero a.btn span {
         display: none;
     }
+
+    /* Section -how-to */
+    section.how-to aside div.content {
+        padding: 140px 20px 20px 0px;
+    }
+
+    section.how-to aside div.content img {
+        width: auto;
+        height: 100px;
+        top: 30px;
+    }
+
+    section.how-to blockquote {
+        margin: 10px 40px 0px 20px;
+    }
 }
