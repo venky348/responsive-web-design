@@ -266,11 +266,8 @@ a.btn:hover {
 
 nav {
    background-color: rgba(0,0,0,0.65);
-   position: absolute;
-   top: 0px;
-   left: 0px;
+   position: relative;
    padding: 50px 0 0 0;
-   width: 100%;
  } 
 
  nav::after {
@@ -592,9 +589,7 @@ nav {
 
     /* Navigation */
     nav {
-        position : static;
-        width: auto;
-        padding: 20px 15px;
+        padding: 50px 15px 20px 15px;
         background-color: #4b0a0c;
     }
 
