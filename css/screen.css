@@ -518,7 +518,8 @@ nav {
 
     /* Header */
     header {
-        height: 160px;
+        height: auto;
+        min-height: 160px;
         background-image: url('../images/banner_625.jpg');
         background-position: left top
     }
@@ -672,8 +673,9 @@ nav {
 @media screen and (max-width: 425px) {
     /* Header */
     header {
-        height : 110px;
+        min-height: 125px;
         background-image: url('../images/banner_425.jpg');
+        background-position: left bottom;
     }
 
     header a.logo {
