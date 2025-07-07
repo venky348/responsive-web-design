@@ -525,13 +525,10 @@ nav {
     }
 
     header a.logo {
-        width: 100%;
-        height: 66px;
-        left: 0px;
-        top : 0px;
-        background-color: rgbd(0, 0, 0, 0.65);
-        background-size: 112px 46px;
-        background-position: 20px center;
+        width: 125px;
+        height: 52px;
+        left: 10px;
+        top : 10px;
     }
 
     header div.hero {
@@ -681,15 +678,16 @@ nav {
     }
 
     header a.logo {
-        height : 36px;
-        background: rgba(0,0,0,0.65) url('../images/logo_small.svg') no-repeat center center;
-        background-size: 126px 17px;
+        width: 126px;
+        height : 26px;
+        background-image: url('../images/logo_small.svg');
+        top: 15px;
     }
 
     header div.hero{
         width: 100%;
         left : 0px;
-        top : 46px;
+        top : 58px;
         text-align : center;
     }
 
@@ -720,6 +718,18 @@ nav {
 
     section.how-to blockquote {
         margin: 10px 40px 0px 20px;
+    }
+
+    /* Navigation */
+    nav {
+        padding-top: 30px;
+    }
+
+    nav a.mobile-menu {
+        left: auto;
+        right: 40px;
+        top: 8px;
+        margin-left: 0px;
     }
 
     /* Footer */
