@@ -276,6 +276,18 @@ nav {
     clear: both;
  }
 
+ nav a.mobile-menu {
+    width: 32px;
+    height: 32px;
+    background: url('../images/icon_menu.svg') no-repeat 0 0;
+    background-size: contain;
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    margin-left: -16px;
+    display: none;
+ }
+
  nav ul {
     list-style: none;
     margin: 0;
@@ -591,6 +603,10 @@ nav {
     nav {
         padding: 50px 15px 20px 15px;
         background-color: #4b0a0c;
+    }
+
+    nav a.mobile-menu {
+        display: block;
     }
 
     nav ul,
